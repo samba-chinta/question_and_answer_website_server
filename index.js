@@ -37,7 +37,7 @@ app.use(express.json())
 // then get connection instance to know whether
 // connection is established or not
 
-const MONGODB_URL = process.env.MONGODB_URL || "mongodb://localhost:27017/myDatabase"
+const MONGODB_URL = process.env.MONGODB_URL 
 const PORT = process.env.PORT || 5000
 
 mongoose.connect(MONGODB_URL, {
