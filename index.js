@@ -38,7 +38,7 @@ app.use(express.json())
 // connection is established or not
 
 const MONGODB_URL = process.env.MONGODB_URL
-const PORT = process.env.APPLICATION_PORT || process.env.PORT
+const PORT = process.env.PORT || 5000
 
 mongoose.connect(MONGODB_URL, {
   useNewUrlParser: true,
