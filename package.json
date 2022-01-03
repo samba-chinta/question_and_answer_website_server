@@ -22,5 +22,13 @@
     "multer": "^1.4.4",
     "nodemailer": "^6.7.2",
     "nodemon": "^2.0.15"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samba-chinta/question_and_answer_website_server.git"
+  },
+  "bugs": {
+    "url": "https://github.com/samba-chinta/question_and_answer_website_server/issues"
+  },
+  "homepage": "https://github.com/samba-chinta/question_and_answer_website_server#readme"
 }
