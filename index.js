@@ -17,6 +17,7 @@ import userqueries from './routes/user/user-queries.js'
 import getuser from './routes/user/getUser.js'
 import deleteanswer from './routes/remove/delete-answer.js'
 import deletequery from './routes/remove/delete-question.js'
+import deleteuser from './routes/remove/remove-user.js'
 import likes from './routes/user/likes.js'
 import isliked from './routes/user/is-already-liked.js'
 
@@ -71,6 +72,7 @@ app.use('/userqueries', userqueries)
 app.use('/getuser', getuser)
 app.use('/deleteanswer', deleteanswer)
 app.use('/deletequery', deletequery)
+app.use('/deleteuser', deleteuser)
 app.use('/likes', likes)
 app.use('/isliked', isliked)
 
