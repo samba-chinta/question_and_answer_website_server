@@ -38,7 +38,8 @@ app.use(express.json())
 // then get connection instance to know whether
 // connection is established or not
 
-const MONGODB_URL = "mongodb+srv://samba:samba123@cluster0.9i4ln.mongodb.net/myDatabase?retryWrites=true&w=majority"
+const MONGODB_URL = 
+"mongodb+srv://samba:samba@cluster0.0utpe.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
 const PORT = process.env.PORT || 5000
 
 mongoose.connect(MONGODB_URL, {
